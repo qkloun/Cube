@@ -1,4 +1,8 @@
 ## Welcome
+
+This is a C program that renders an animated spinning cube directly in the terminal using ASCII characters. It demonstrates basic 3D rendering concepts such as rotation, perspective projection, and ASCII-based shading.
+## About
+
 This project was inspired by a youtube video I watched that was able to animate a spinning cube in the terminal. I was able to achieve a similar result by following instructions in the video.
 
 ### Watch the Video
