@@ -1,7 +1,9 @@
-# About
-This program creates a real-time 3D rotating cube visualization using only ASCII characters in the terminal. It renders a wireframe cube that continuously rotates around multiple axes, creating a mesmerizing spinning effect.
+# Welcome!
 
-This project was inspired by a youtube video I watched that was able to animate a spinning cube in the terminal. I was able to achieve a similar result by following instructions in the video.
+A real-time 3D rotating cube rendered entirely with ASCII characters in your terminal. No graphics libraries required.
+
+## About
+This project creates a captivating visual experience by rendering a rotating 3D cube using only ASCII characters in the terminal. Inspired by a YouTube tutorial on terminal-based 3D rendering, this implementation showcases how classic computer graphics principles can create compelling animations with minimal resources.
 
 ## ✨ Features
 
@@ -12,10 +14,17 @@ This project was inspired by a youtube video I watched that was able to animate 
 - Zero dependencies - pure C implementation</li>
 - Cross-platform compatibility (Linux, macOS, Windows with appropriate terminal)</li>
 
-## Visual
-The cube appears to rotate smoothly in 3D space, with each face represented by a different ASCII character, creating a distinctive visual pattern that clearly shows the cube's geometry and rotation.
+## Visual Experience
+The cube appears to rotate smoothly in 3D space, with each face represented by a different ASCII character, creating a distinctive visual pattern that clearly shows the cube's geometry and rotation. The perspective projection adds depth, making closer edges appear larger than distant ones.
 
-##
+
+## How it works
+The program uses fundamental 3D graphics techniques:
+1. **3D Coordinates** - Defines 8 vertices of a cube in 3D space
+2. **Rotation Matrices** - Applies mathematical transformations to rotate the cube around X, Y, and Z axes
+3. **Perspective Projection** - Converts 3D coordinates to 2D screen space with depth perception
+4. **ASCII Rendering** - Maps 3D points to terminal characters, creating the illusion of a solid object
+5. **Frame Loop** - Continuously updates rotation angles and re-renders for smooth animation
 
 ### Watch the video!
 <a href="https://www.youtube.com/watch?v=p09i_hoFdd0" target="_blank">
