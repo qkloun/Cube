@@ -26,6 +26,22 @@ The program uses fundamental 3D graphics techniques:
 4. **ASCII Rendering** - Maps 3D points to terminal characters, creating the illusion of a solid object
 5. **Frame Loop** - Continuously updates rotation angles and re-renders for smooth animation
 
+**Algorithm Complexity:**
+- Time Complexity: O(n²) per frame, where n is the cube resolution
+- Space Complexity: O(w × h) for the screen buffer and z-buffer
+
+## 🙏 Acknowledgments
+- Inspired by terminal-based 3D rendering tutorials
+- Based on classic computer graphics principles
+- Thanks to the YouTube tutorial for the educational foundation
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest features
+- Submit pull requests
+- Improve documentation
+
 ### Watch the video!
 <a href="https://www.youtube.com/watch?v=p09i_hoFdd0" target="_blank">
   <img src="https://img.youtube.com/vi/p09i_hoFdd0/maxresdefault.jpg" width="400"/></a>
